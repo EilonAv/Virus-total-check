@@ -20,7 +20,7 @@ def cycle(cycletime):
 
 
 def main():
-    API_KEY = '8bb7268d4fe787557c43a7631cee70aa6ee3779fdc5f027c2e9b6d5bd34e57d9'
+    API_KEY = 'Enter your virus total api here!!'
     virustotal = VirusTotalPublicApi(API_KEY)
     cycletime = input("Please enter how frequently (in seconds) you wish to make the check : \n")
     while True:
@@ -58,4 +58,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# C:\Users\Eilon\Downloads\Autoruns\project>
+
